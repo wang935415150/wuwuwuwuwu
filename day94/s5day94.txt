@@ -1,0 +1,111 @@
+s5day94
+内容回顾：
+	1. 字符串格式化
+		  正则： /xx/g
+		js原型：为类定制方法
+	   replace：字符串替换
+	   
+	2. display
+	
+	3. choice选项：
+		模板语言：get_xx_display()   yield
+		     js : @@
+		
+今日内容：增删改查插件
+	1. 定制属性
+		@
+		setAttribute
+		attr()
+		
+	2. 分页
+		page_html_js
+		
+	3. 组合搜索
+		- 后台配置项
+		- position
+		- 
+			<div class='clearfix'>
+				<div float></div>
+				...
+			</div>
+			
+			:after
+		- click和on
+		- append,appendTo
+		- 
+			var a;
+			a = {'name':'alex'}
+			a.xx, undefined
+		- ajax:
+			# 1. 成功，value=字符串、数字
+			$.ajax({
+				data:{'name':'alex','age':18}
+			})
+
+			# 2. 成功，value=字符串、数字、列表
+			$.ajax({
+				url:'',
+				type:'',
+				data:{'name':'alex','age':18,'hobby':[11,22,33]},
+				traditional:true,
+				success:function(){
+				}
+			})
+
+
+
+			# 3. 成功，value=字符串、数字、列表; 序列化字符串
+			$.ajax({
+				url:'',
+				type:'',
+				data:{'name':'alex','age':18,'hobby':[11,22,33],'test':JSON.stringfy({'k1':'v1'})},
+				traditional:true,
+				success:function(){
+				}
+			})
+
+		- Q
+			语法：
+				Q(id=1)|Q(id=1)
+			
+			对象：
+				con = Q()
+				temp = Q()
+				temp.connector = 'OR'
+				temp.children.append((id, 1,))
+				temp.children.append((id, 1,))
+				temp.children.append((id, 1,))
+				con.add(temp, 'AND')
+		
+		
+	4. 编辑模式：
+		 进入：文本变更为input或select
+		 退出：input或select变更为文本
+		 
+本周作业：
+	1. 目前功能
+		- 先看
+		- 自己写
+	2. 随便搞一个表格【input,select】
+			
+			choices = [
+				[1,'xxx'],
+			]
+	
+			进入：文本变更为input或select
+			退出：input或select变更为文本
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	

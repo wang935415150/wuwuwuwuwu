@@ -1,0 +1,98 @@
+s5day95
+
+问题：
+	1. Ajax发送注意
+		- 数据格式
+		- csrf
+		- 浏览器同源策略$.ajax({url:'其他域名'})
+			- JSONP
+			- CORS
+	2. js面向对象
+		function Foo(name,age){
+			this.Name = name
+			this.Age = age
+		}
+		
+		Foo.prototype.Show=function(arg){
+				
+		}
+		  
+		obj1 = new Foo('alex1',18)
+		obj2 = new Foo('alex2',18)
+		obj3 = new Foo('alex3',18)
+		
+	3. format
+		- 正则 /xxx/g
+		- replace
+		
+	4. 函数是作用域（this,作用域）
+		
+		function foo(){
+			console.log(name);
+			var name = 'alex';
+		}
+		
+		foo()
+		
+		# 提前声明
+		
+	5. Q，F
+	
+		.update(count=F('count') + 1)
+		
+	6. choice
+	
+	
+	
+今日内容：
+	- 进入编辑模式
+	- 退出编辑模式
+	- 删除
+	- 修改
+	
+
+1. 进入编辑模式
+	- checkbox  通过on绑定事件
+	- checkbox 默认事件和click谁先执行？
+	- 公共函数：
+		tdIntoEditMode
+		tdOutEditMode
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
